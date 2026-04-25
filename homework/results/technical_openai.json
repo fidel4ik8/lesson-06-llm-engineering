@@ -1,0 +1,49 @@
+{
+  "metrics": {
+    "provider": "openai",
+    "latency_sec": 7.868,
+    "input_tokens": 1040,
+    "output_tokens": 364,
+    "total_tokens": 1404,
+    "cost_usd": 0.000374,
+    "json_valid": true
+  },
+  "data": {
+    "summary": "На зустрічі було вирішено, що новий search-сервіс буде реалізовано на Meilisearch.",
+    "tasks": [
+      {
+        "owner": "Артем",
+        "task": "Підготувати Terraform-модуль для деплою Meilisearch у Kubernetes з моніторингом через Prometheus",
+        "deadline": "8 травня"
+      },
+      {
+        "owner": "Юлія",
+        "task": "Імплементувати search-сервіс, який буде проксі між API і Meilisearch, з кешуванням популярних запитів у Redis",
+        "deadline": "22 травня"
+      },
+      {
+        "owner": "Богдан",
+        "task": "Написати worker для індексації, який слухає Kafka events про зміни товарів, а також bulk reindex job",
+        "deadline": "18 травня"
+      },
+      {
+        "owner": "Богдан",
+        "task": "Провести load testing перед запуском у прод, звіт по 10x навантаженню",
+        "deadline": "25 травня"
+      },
+      {
+        "owner": "Юлія",
+        "task": "Інтегрувати з існуючим rate limiter",
+        "deadline": ""
+      }
+    ],
+    "decisions": [
+      "Вибрати Meilisearch для нового search-сервісу.",
+      "Всі нові сервіси пишемо на Go, Python тільки для ML.",
+      "Обов'язково використовувати OpenTelemetry tracing з першого дня.",
+      "Тримати індекс конфігурацію в Git, не змінювати вручну в прод.",
+      "Реалізувати rate limiting на рівні API gateway."
+    ]
+  },
+  "raw_response": null
+}

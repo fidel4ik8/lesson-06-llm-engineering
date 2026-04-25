@@ -1,0 +1,35 @@
+{
+  "metrics": {
+    "provider": "ollama",
+    "latency_sec": 11.708,
+    "input_tokens": 953,
+    "output_tokens": 206,
+    "total_tokens": 1159,
+    "cost_usd": 0.0,
+    "json_valid": true
+  },
+  "data": {
+    "summary": "Daily standup meeting on April 27th",
+    "tasks": [
+      {
+        "owner": "Costa",
+        "task": "Finish payment integration by tomorrow evening",
+        "deadline": "Tuesday, May 9th"
+      },
+      {
+        "owner": "Masha",
+        "task": "Fix bug in login module by Tuesday, April 29th",
+        "deadline": "Monday, May 10th"
+      },
+      {
+        "owner": "Demon",
+        "task": "Rework export module, deadline is May 10th",
+        "deadline": "Tuesday, May 10th"
+      }
+    ],
+    "decisions": [
+      "We will switch to a new library version."
+    ]
+  },
+  "raw_response": null
+}

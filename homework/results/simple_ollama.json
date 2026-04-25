@@ -1,0 +1,41 @@
+{
+  "metrics": {
+    "provider": "ollama",
+    "latency_sec": 11.829,
+    "input_tokens": 586,
+    "output_tokens": 228,
+    "total_tokens": 814,
+    "cost_usd": 0.0,
+    "json_valid": true
+  },
+  "data": {
+    "summary": "Meeting of the Product team on April 25, 2026",
+    "tasks": [
+      {
+        "owner": "Anna",
+        "task": "Creating a new dashboard for client analytics",
+        "deadline": "End of May"
+      },
+      {
+        "owner": "Ivan",
+        "task": "Taking UI prototype and creating first drafts in Figma by May 5",
+        "deadline": "May 5"
+      },
+      {
+        "owner": "Martin",
+        "task": "Developing API for users and metrics",
+        "deadline": "May 15"
+      },
+      {
+        "owner": "Olena",
+        "task": "Integrating frontend after Ivan finishes the prototype",
+        "deadline": "May 6-25"
+      }
+    ],
+    "decisions": [
+      "Using PostgreSQL for the database and Redis for caching",
+      "Using React and TypeScript for the frontend"
+    ]
+  },
+  "raw_response": null
+}

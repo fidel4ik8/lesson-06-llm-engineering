@@ -1,0 +1,7 @@
+dataset,provider,json_valid,tasks_found,tasks_expected,hallucinations,input_tokens,output_tokens,total_tokens,cost_usd,latency_sec,error
+simple,ollama,True,4,4,4,586,228,814,0.0,11.829,
+simple,openai,True,4,4,0,515,230,745,0.000215,6.691,
+chaotic,ollama,True,3,6,3,953,206,1159,0.0,11.708,
+chaotic,openai,True,6,6,0,839,305,1144,0.000309,4.678,
+technical,ollama,True,4,5,1,1221,238,1459,0.0,15.004,
+technical,openai,True,5,5,0,1040,364,1404,0.000374,7.868,

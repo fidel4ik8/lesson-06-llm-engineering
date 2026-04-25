@@ -1,0 +1,40 @@
+{
+  "metrics": {
+    "provider": "ollama",
+    "latency_sec": 15.004,
+    "input_tokens": 1221,
+    "output_tokens": 238,
+    "total_tokens": 1459,
+    "cost_usd": 0.0,
+    "json_valid": true
+  },
+  "data": {
+    "summary": "Technical sync for new search service",
+    "tasks": [
+      {
+        "owner": "Sергій",
+        "task": "Finalize architecture of new search service",
+        "deadline": "April 24, 2026"
+      },
+      {
+        "owner": "Юлія",
+        "task": "Prepare benchmark for search services",
+        "deadline": "April 24, 2026"
+      },
+      {
+        "owner": "Артем",
+        "task": "Implement Terraform module for deploying Meilisearch",
+        "deadline": "May 8, 2026"
+      },
+      {
+        "owner": "Богдан",
+        "task": "Implement worker for indexing changes in products",
+        "deadline": "May 18, 2026"
+      }
+    ],
+    "decisions": [
+      "Choose Meilisearch as the search service due to its simplicity and cost-effectiveness."
+    ]
+  },
+  "raw_response": null
+}

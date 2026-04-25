@@ -1,0 +1,42 @@
+{
+  "metrics": {
+    "provider": "openai",
+    "latency_sec": 6.691,
+    "input_tokens": 515,
+    "output_tokens": 230,
+    "total_tokens": 745,
+    "cost_usd": 0.000215,
+    "json_valid": true
+  },
+  "data": {
+    "summary": "Обговорено запуск MVP нового dashboard для аналітики клієнтів до кінця травня 2026 року.",
+    "tasks": [
+      {
+        "owner": "Іван",
+        "task": "створити UI prototype в Figma",
+        "deadline": "5 травня"
+      },
+      {
+        "owner": "Мартин",
+        "task": "зробити API для користувачів та метрик",
+        "deadline": "15 травня"
+      },
+      {
+        "owner": "Олена",
+        "task": "інтегрувати frontend після отримання макетів",
+        "deadline": "25 травня"
+      },
+      {
+        "owner": "Анна",
+        "task": "підготувати технічне завдання та user stories",
+        "deadline": "28 квітня"
+      }
+    ],
+    "decisions": [
+      "Використовувати PostgreSQL для бази даних і Redis для кешування.",
+      "Використовувати React + TypeScript для frontend.",
+      "Обов'язковий code review перед merge у main, мінімум один approve."
+    ]
+  },
+  "raw_response": null
+}
